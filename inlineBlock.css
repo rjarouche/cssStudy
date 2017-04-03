@@ -1,0 +1,19 @@
+div{
+	width: 20%;
+	height:100px;
+	margin: 1em;
+	background-color: blue;
+}
+
+.float{
+	float:left;
+}
+
+.clear{
+	clear:left;
+	background-color: yellow;
+}
+
+.inline{
+	display:inline-block;
+}

@@ -1,0 +1,52 @@
+.simple{
+	width:500px;
+	margin: 20px auto;
+	border-style: solid;
+    border-width: 1px;
+}
+
+
+.fancy{
+    width:500px;
+	margin: 20px auto;
+    padding: 50px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.simple2{
+	width:500px;
+	margin: 20px auto;
+	border-style: solid;
+    border-width: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+
+.fancy2{
+    width:500px;
+	margin: 20px auto;
+    padding: 50px;
+    border-style: solid;
+    border-width: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+
+/* 
+Isso assegura que todos os elemntos vão responder ao box-sizng sem problemas!!!!
+os prefixos de -webkit e  -moz são "vendors prefixes" servem para que cada navegador
+trate de sua maneira a propriedade
+Em geral use-se para propriedades relativamente novas
+
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*/

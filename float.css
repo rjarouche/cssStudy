@@ -1,0 +1,10 @@
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+div{
+	position: relative;
+	margin:auto;
+	width: 600px;
+}

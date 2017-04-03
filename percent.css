@@ -1,0 +1,35 @@
+article{
+	width: 500px;
+	margin: 0 auto;
+}
+
+article img {
+  float: right;
+  width: 50%;
+}
+
+
+.container{
+	clear:both;
+	overflow: auto;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: orange;
+}
+
+nav {
+  float: left;
+  width: 25%;
+  background-color: pink;
+}
+section {
+  margin-left: 25%;
+}
+
+/*
+ caso queira tirar o espaço do ul no nav
+ul{
+	margin:0px;
+	padding: 0px;
+}
+*/

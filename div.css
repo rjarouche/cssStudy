@@ -1,0 +1,10 @@
+#main{
+	margin: 0 auto;
+	width: 800px;
+}
+
+
+#main2{
+	margin: 0 auto;
+	max-width: 800px;
+}

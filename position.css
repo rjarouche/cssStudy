@@ -1,0 +1,41 @@
+.static{
+	position: static;
+	border-style: solid;
+	border-color:blue;
+	border-width: 1px;
+}
+
+
+.relative1{
+	position: relative;
+	border-style: solid;
+	border-color:red;
+	border-width: 1px;
+}
+
+
+.relative2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  background-color: lightblue;
+  width: 500px;
+}
+
+.fixed{
+  position:fixed;
+  bottom:0;
+  right:0;
+  width: 200px;
+  background-color: yellow;	
+}
+
+
+.absolute{
+  position:absolute;
+  top:50px;
+  right:0;
+  width: 300px;
+  height: 200px;
+  background-color: grey;	
+}

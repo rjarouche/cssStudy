@@ -1,0 +1,17 @@
+/*Div's por padrão tem o display:block;
+  span:inline;
+  a:inline;
+*/
+#divRed {
+	visibility: hidden
+}
+
+
+#divBlue{
+    display:none;
+}
+
+
+ul.list-group > li{
+	display:inline;
+}
