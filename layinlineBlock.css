@@ -1,0 +1,23 @@
+.container{
+    overflow: auto;
+    background-color:blue;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    background-color: orange;
+    font-size: 12;
+  }
+  .column {
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    overflow: auto;
+    font-size: 12;
+  }
+
+  section{
+      background-color: white;
+  }
