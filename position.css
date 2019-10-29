@@ -39,3 +39,21 @@
   height: 200px;
   background-color: grey;	
 }
+
+.conteudo{
+    background-color: lightpink;
+    position: relative;
+    height: 100%;
+    overflow: visible;
+}
+
+
+/* manter os tamanhos iguais */
+.absolute.ghost{
+    visibility: hidden;
+    width: 300px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    position: relative;
+}

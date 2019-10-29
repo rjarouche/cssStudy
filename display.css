@@ -3,12 +3,15 @@
   a:inline;
 */
 #divRed {
-	visibility: hidden
+    visibility: hidden;
+    background-color: lightcoral;
 }
 
 
 #divBlue{
     display:none;
+    background-color:darkblue;
+    color:darkgray;
 }
 
 

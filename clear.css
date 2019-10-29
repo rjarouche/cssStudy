@@ -9,3 +9,7 @@
 .after-box{
 	clear:left;
 }
+
+section::after {
+    clear:left;
+}

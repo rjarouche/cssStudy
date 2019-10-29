@@ -15,5 +15,5 @@ div{
 
 .clearfix{
 	overflow: auto;
-	clear: both;
+    clear: both;
 }
