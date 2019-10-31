@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+
+ul ~ p {
+ color: red;
+}
+
+li > p {
+ color: blue;
+}
+
+a[title] {
+    font-weight: bold;
+    font-size: 20px;
+    color:coral;
+}
+
+a[href="foo"] {
+    font-style: italic;
+    color : black;
+    background-color: burlywood;
+}
+
+a[href$=".jpg"]:after{
+    content: "imagem!";
+
+}
+
+
+a[href$=".jpg"]:hover ~ ul{
+    transform: translate(-100%);
+}
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+    <a href="1.jpg">a[href$=".jpg"]</a>
+    <p>Teste ~</p>    
+    <ul>
+        <li>
+            <p>1</p>
+        </li>
+        <li>
+            <a><p>Não pega com o ></p></a>
+        </li>
+        <li>
+            <p>1</p>
+        </li>
+    </ul>
+    <p>Teste ~</p>
+    <p>Teste ~</p>      
+
+    <a title="tettete">a[title]</a>
+    <a href="foo">a[href="foo"]</a>
+
+    <p>Teste ~</p>   
+
+   
+</body>
+</html>
